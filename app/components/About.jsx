@@ -2,7 +2,17 @@ var React = require('react');
 
 var About = (props)=>{
   return (
-    <h2>About Component</h2>
+    <div>
+    <h1>About</h1>
+    <p>
+      Sme stuf about React
+    </p>
+    <ul>
+      <li>
+        <a href="https://faceboook.github.io,react">react</a>
+      </li>
+    </ul>
+  </div>
   );
 }
 
